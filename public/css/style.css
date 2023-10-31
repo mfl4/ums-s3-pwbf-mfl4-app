@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+center {
+    font-family: sans-serif;
+    margin-top:20vh;
+}
+
+center h1 {
+    text-align: center;
+    font-size: 10em;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+center a {
+    text-decoration: none;
+    color: white; font-size: 1.5em;
+    padding: 1em;
+    background-color: black;
+    border-radius: 0.5em;
+    font-weight: semibold;
+    margin-right: 0.5em;
+}
+
+main {
+    height: 85vh;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+}
+
+main a {
+    color: black;
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
